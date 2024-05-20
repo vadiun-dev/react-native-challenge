@@ -27,6 +27,4 @@ This project is a React Native application that demonstrates the use of the JSON
 
 ## Demo
 
-<video width="500" height="500" controls>
-  <source src="./assets/demo.mp4" type="video/mp4">
-</video>
+![Demo](./assets/demo.mp4)
