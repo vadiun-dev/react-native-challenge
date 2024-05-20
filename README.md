@@ -1,7 +1,3 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
 ## Get started
 
 1. Install dependencies
@@ -16,35 +12,21 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Summary
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This project is a React Native application that demonstrates the use of the JSONPlaceholder API to display a list of posts and post details.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+- List of Posts: Fetch and display a list of posts from the JSONPlaceholder API.
+- Post Detail Page: Show detailed information for each post.
+- Pagination: Fetch posts in batches of 10.
+- Infinite Scroll: Automatically fetch the next set of posts as the user scrolls to the bottom of the list.
+- Pull to Refresh: Allow users to refetch posts by pulling down on the posts page.
+- Create a UI/UX similar to the provided Demo
 
-When you're ready, run:
+## Demo
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<video width="500" height="500" controls>
+  <source src="./assets/demo.mp4" type="video/mp4">
+</video>
