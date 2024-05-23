@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getPosts } from "../api/services/Posts";
+import { useRouter } from "expo-router";
 
 export const usePosts = () => {
   const [posts, setPosts] = useState([]);
@@ -8,6 +9,7 @@ export const usePosts = () => {
   const [hasMore, setHasMore] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     loadPosts();
@@ -48,5 +50,6 @@ export const usePosts = () => {
     isLoading,
     error,
     loadPosts,
+    router,
   };
 };
