@@ -4,7 +4,3 @@ export interface Post {
   title: string;
   body: string;
 }
-
-export interface Posts {
-  data: Post[];
-}
